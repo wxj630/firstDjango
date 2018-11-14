@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>信息系统规划与建设</title>
+    <style media="screen">
+        div.div_padding{padding-left:30px; padding-top: 30px;padding-bottom: 10px}
+    </style>
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="jumbotron-narrow.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="container">
+      <div class="header clearfix">
+        <nav>
+          <ul class="nav nav-pills pull-right">
+            <li role="presentation" class="active"><a href="#">输入</a></li>
+            <li role="presentation"><a href="#">分组</a></li>
+            <li role="presentation"><a href="#">小组信息</a></li>
+          </ul>
+        </nav>
+        <h3 class="text-muted">Buiding group System</h3>
+      </div>
+
+      <div class="jumbotron">
+        <h1>小组分组系统</h1>
+          <p class="lead">系统介绍：各位同学大家好，这是我们组的调查问卷，主要针对大家的基本信息、技术能力、产品能力、测试评估能力进行调查，我们尽会我们所能保护大家的信息，尊重大家的隐私，请大家放心填写~</p>
+      </div>
+      <div class="">
+        <ul id="top_padding_1" class="nav nav-tabs">
+    		  <li role="presentation" class="active"><a href="#">信息内容</a></li>
+    		</ul>
+      <form class="form-horizontal" action="#" method="post">
+
+        <div class="row marketing">
+
+          <div class="row form-group div_padding">
+              <div class="col-md-6">
+                  <p id="top_line">1、您的姓名</p>
+                  <p><input class="form-control" type="text" name="name" placeholder="李某某"></p>
+              </div>
+          </div>
+
+          <div class="row form-group div_padding">
+              <div class="col-md-6">
+                  <p id="top_line">2、您的性别</p>
+                  <label class="radio-inline">
+                    <input type="radio" name="question_2" id="inlineRadio1" value="1"> 男
+                  </label>
+                  <label class="radio-inline">
+                    <input type="radio" name="question_2" id="inlineRadio2" value="0"> 女
+                  </label>
+              </div>
+          </div>
+
+          <div class="row form-group div_padding">
+              <div class="col-md-6">
+                  <p id="top_line">3、本科是否在北大</p>
+                  <label class="radio-inline">
+                    <input type="radio" name="question_3" id="inlineRadio1" value="1"> 是
+                  </label>
+                  <label class="radio-inline">
+                    <input type="radio" name="question_3" id="inlineRadio2" value="0"> 否
+                  </label>
+              </div>
+          </div>
+
+          <div class="row form-group div_padding">
+              <div class="col-md-6">
+                  <p id="top_line">4、参与开发的信息系统项目个数（参与写代码的工作）</p>
+                  <label class="radio-inline">
+                    <input type="radio" name="question_4" id="inlineRadio1" value="1"> 0
+                  </label>
+                  <label class="radio-inline">
+                    <input type="radio" name="question_4" id="inlineRadio2" value="3"> 1~2
+                  </label>
+                  <label class="radio-inline">
+                    <input type="radio" name="question_4" id="inlineRadio3" value="5"> 3个及以上
+                  </label>
+              </div>
+          </div>
+
+          <div class="row form-group div_padding">
+              <div class="col-md-6">
+                  <p id="top_line">5、您写过的代码行数</p>
+                  <label class="radio-inline">
+                    <input type="radio" name="question_5" id="inlineRadio1" value="1"> 0~3000
+                  </label>
+                  <label class="radio-inline">
+                    <input type="radio" name="question_5" id="inlineRadio2" value="3"> 3000~10000
+                  </label>
+                  <label class="radio-inline">
+                    <input type="radio" name="question_5" id="inlineRadio3" value="5"> 10000以上
+                  </label>
+              </div>
+          </div>
+
+          <div class="row form-group div_padding">
+              <div class="col-md-6">
+                  <p id="top_line">6、您给您的编程能力打分（最高分5分）</p>
+                  <label class="radio-inline">
+                    <input type="radio" name="question_6" id="inlineRadio1" value="1"> 1
+                  </label>
+                  <label class="radio-inline">
+                    <input type="radio" name="question_6" id="inlineRadio2" value="2"> 2
+                  </label>
+                  <label class="radio-inline">
+                    <input type="radio" name="question_6" id="inlineRadio3" value="3"> 3
+                  </label>
+                  <label class="radio-inline">
+                    <input type="radio" name="question_6" id="inlineRadio4" value="4"> 4
+                  </label>
+                  <label class="radio-inline">
+                    <input type="radio" name="question_6" id="inlineRadio5" value="5"> 5
+                  </label>
+              </div>
+          </div>
+
+          <div class="row form-group div_padding">
+              <div class="col-md-12">
+                  <p id="top_line">7、您参与的相关产品经历的个数（上过相关课程，有相关实习、在项目中担任过相关角色都算）</p>
+                  <label class="radio-inline">
+                    <input type="radio" name="question_7" id="inlineRadio1" value="1"> 1
+                  </label>
+                  <label class="radio-inline">
+                    <input type="radio" name="question_7" id="inlineRadio2" value="2"> 2
+                  </label>
+                  <label class="radio-inline">
+                    <input type="radio" name="question_7" id="inlineRadio3" value="3"> 3
+                  </label>
+                  <label class="radio-inline">
+                    <input type="radio" name="question_7" id="inlineRadio4" value="4"> 4
+                  </label>
+                  <label class="radio-inline">
+                    <input type="radio" name="question_7" id="inlineRadio5" value="5"> 5
+                  </label>
+              </div>
+          </div>
+
+          <div class="row form-group div_padding">
+              <div class="col-md-12">
+                  <p id="top_line">8、您会使用的原型设计工具个数（如Mockplus、Axure Pro、Justinmind、Invision等）</p>
+                  <label class="radio-inline">
+                    <input type="radio" name="question_8" id="inlineRadio1" value="1"> 0
+                  </label>
+                  <label class="radio-inline">
+                    <input type="radio" name="question_8" id="inlineRadio2" value="3"> 1~2
+                  </label>
+                  <label class="radio-inline">
+                    <input type="radio" name="question_8" id="inlineRadio3" value="5"> 3个及以上
+                  </label>
+              </div>
+          </div>
+
+          <div class="row form-group div_padding">
+              <div class="col-md-12">
+                  <p id="top_line">9、请给您的组织协调能力打分（最高5分）</p>
+                  <label class="radio-inline">
+                    <input type="radio" name="question_9" id="inlineRadio1" value="1"> 1
+                  </label>
+                  <label class="radio-inline">
+                    <input type="radio" name="question_9" id="inlineRadio2" value="2"> 2
+                  </label>
+                  <label class="radio-inline">
+                    <input type="radio" name="question_9" id="inlineRadio3" value="3"> 3
+                  </label>
+                  <label class="radio-inline">
+                    <input type="radio" name="question_9" id="inlineRadio4" value="4"> 4
+                  </label>
+                  <label class="radio-inline">
+                    <input type="radio" name="question_9" id="inlineRadio5" value="5"> 5
+                  </label>
+              </div>
+          </div>
+
+          <div class="row form-group div_padding">
+              <div class="col-md-6">
+                  <p id="top_line">10、您有过系统测试评估的经历吗？</p>
+                  <label class="radio-inline">
+                    <input type="radio" name="question_10" id="inlineRadio1" value="1"> 有
+                  </label>
+                  <label class="radio-inline">
+                    <input type="radio" name="question_10" id="inlineRadio2" value="0"> 没有
+                  </label>
+              </div>
+          </div>
+
+          <div class="row form-group div_padding">
+              <div class="col-md-12">
+                  <p id="top_line">11、您掌握几种系统评估方法（如德尔菲法、投入产出模型、接受度模型、成功模型、成熟度模型、净现值法、NPV法、成本效益分析、决策分析等等...）</p>
+                  <label class="radio-inline">
+                    <input type="radio" name="question_11" id="inlineRadio1" value="1"> 0
+                  </label>
+                  <label class="radio-inline">
+                    <input type="radio" name="question_11" id="inlineRadio2" value="3"> 1~2
+                  </label>
+                  <label class="radio-inline">
+                    <input type="radio" name="question_11" id="inlineRadio3" value="5"> 3个及以上
+                  </label>
+              </div>
+          </div>
+
+          <div class="row form-group div_padding">
+              <div class="col-md-12">
+                  <p id="top_line">12、您认为您的系统评估能力怎么样（最高5分）</p>
+                  <label class="radio-inline">
+                    <input type="radio" name="question_12" id="inlineRadio1" value="1"> 1
+                  </label>
+                  <label class="radio-inline">
+                    <input type="radio" name="question_12" id="inlineRadio2" value="2"> 2
+                  </label>
+                  <label class="radio-inline">
+                    <input type="radio" name="question_12" id="inlineRadio3" value="3"> 3
+                  </label>
+                  <label class="radio-inline">
+                    <input type="radio" name="question_12" id="inlineRadio4" value="4"> 4
+                  </label>
+                  <label class="radio-inline">
+                    <input type="radio" name="question_12" id="inlineRadio5" value="5"> 5
+                  </label>
+              </div>
+          </div>
+
+          <p align="center"><a class="btn btn-lg btn-success" href="#" role="button">提交</a></p>
+        </div>
+      </form>
+          <div class="jsonfile" align="center">
+              {% for json in json_list %}
+                  <h2>{{ json.classid }}</h2>
+                  <p>{{ json.jsonfile.readlines}}</p>
+              {% endfor %}
+          </div>
+      </div>
+
+      <footer class="footer">
+        <p>&copy; 2018 信息系统设计与规划, 第三组</p>
+      </footer>
+
+    </div> <!-- /container -->
+
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
